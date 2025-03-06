@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uzair Aslam - Web Developer</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Developer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h1>Uzair Aslam</h1>
+            <h2>Web Developer</h2>
+            <p>I love to create websites</p>
+            <a href="#about" class="btn-learn-more">Learn More</a>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="skill-item">
+                        <h4>FRONTEND</h4>
+                        <p>Proficient in HTML, CSS, JavaScript and modern frameworks like React.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-item">
+                        <h4>BACKEND</h4>
+                        <p>Proficient in Node.js, Express, and mongoDB database design.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-item">
+                        <h4>RESPONSIVE DESIGN</h4>
+                        <p>I create websites that look and function perfectly across all devices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">ABOUT ME</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Personal Background</h3>
+                    <p>I'm a passionate web developer with a strong background in modern web technologies.</p>
+                    <h3>Education</h3>
+                    <p>BSc Computer Science - Air University (2022-present)</p>
+                    <h3>Interests</h3>
+                    <p>Beyond coding, I enjoy exploring new technologies.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-img-container">
+                        <img src="./src/mern.jpeg" alt="MERN Stack">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">MY PROJECTS</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="./src/laptop.jpg" alt="E-commerce Website">
+                        <h5>Blog Application</h5>
+                        <p>A  Blog Application built with the Node with Server side Rendering.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="./src/laptop.jpg" alt="Task Management App">
+                        <h5>Task Management App</h5>
+                        <p>A React-based task management application with drag-and-drop functionality.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="./src/laptop.jpg" alt="Weather Dashboard">
+                        <h5>Weather Dashboard</h5>
+                        <p>A weather application that displays current weather and forecasts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="blog" class="blog-section">
+        <div class="container">
+            <h2 class="section-title">BLOG</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="blog-card">
+                        <img src="./src/laptop.jpg" alt="Blog Post">
+                        <h5>Mastering React Hooks</h5>
+                        <p>Exploring the power of React Hooks and how they can simplify your component logic.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-card">
+                        <img src="./src/laptop.jpg" alt="Blog Post">
+                        <h5>CSS Grid vs Flexbox</h5>
+                        <p>A comprehensive comparison of CSS Grid and Flexbox with practical examples.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog-card">
+                        <img src="./src/laptop.jpg" alt="Blog Post">
+                        <h5>Modern API Development</h5>
+                        <p>Best practices for designing RESTful APIs that are scalable and maintainable.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">CONTACT ME</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact-form">
+                        <h3>Send Me a Message</h3>
+                        <form>
+                            <input type="text" placeholder="Your Name" required>
+                            <input type="email" placeholder="Your Email" required>
+                            <input type="text" placeholder="Subject">
+                            <textarea rows="5" placeholder="Your Message" required></textarea>
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>Contact Information</h3>
+                    <p>Islamabad, PK</p>
+                    <p>uzair@example.com</p>
+                    <p>+92322 1234567</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Uzair Aslam. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
